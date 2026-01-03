@@ -1,8 +1,7 @@
 # ISTVT: Interpretable Spatial-Temporal Video Transformer for Deepfake Detection
 
 
-
-This repository contains a PyTorch implementation of the ISTVT (Interpretable Spatial-Temporal Video Transformer) model for deepfake detection, developed as a course project for EE656. The implementation is based on the paper "ISTVT: Interpretable Spatial-Temporal Video Transformer for Deepfake Detection" but represents an independent implementation for educational purposes.
+This repository contains a PyTorch implementation of the ISTVT (Interpretable Spatial-Temporal Video Transformer) model for deepfake detection. The implementation is based on the paper "ISTVT: Interpretable Spatial-Temporal Video Transformer for Deepfake Detection" but represents an independent implementation for educational purposes.
 
 ## Project Overview
 
@@ -170,18 +169,7 @@ The model is evaluated using:
 - **Precision/Recall/F1**: Per-class performance metrics
 - **AUC**: Area under ROC curve
 
-## Limitations and Future Work
 
-This implementation focuses on the core ISTVT architecture and training pipeline. The following components from the original paper are not implemented:
-
-- **LRP-based Interpretability**: Layer-wise relevance propagation for attention visualization
-- **Robustness Testing**: Evaluation under compression, downscaling, and noise
-- **Advanced Augmentation**: Specific augmentation strategies for deepfake detection
-- **Multi-dataset Evaluation**: Cross-dataset generalization experiments
-
-## Course Project Notes
-
-This implementation was developed as part of the EE656 course curriculum. While it implements the core concepts from the ISTVT paper, it represents an independent educational implementation rather than a reproduction of the original authors' work.
 
 ## References
 
